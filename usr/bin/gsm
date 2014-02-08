@@ -33,21 +33,21 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Web browser ')'">
        <input file>/usr/local/lib/X11/pixmaps/www48.png</input>
-       <action>/usr/local/bin/defaultbrowser &</action>
+       <action>/usr/local/gsm/applications/browser &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Wordprocess ')'">
        <input file>/usr/local/lib/X11/pixmaps/word48.png</input>
-       <action>/usr/local/bin/defaultwordprocessor &</action>
+       <action>/usr/local/gsm/applications/wordprocessor &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Video player ')'">
        <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
-       <action>/usr/local/bin/defaultmediaplayer &</action>
+       <action>/usr/local/gsm/applications/vplay &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null.png</input> 
@@ -74,21 +74,21 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Mail ')'">
        <input file>/usr/local/lib/X11/pixmaps/email48.png</input>
-       <action>/usr/local/bin/defaultemail &</action>
+       <action>/usr/local/gsm/applications/mail &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Spreadsheet ')'">
        <input file>/usr/local/lib/X11/pixmaps/spread48.png</input>
-       <action>/usr/local/bin/defaultspreadsheet &</action>
+       <action>/usr/local/gsm/applications/spreadsheet &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Audio player ')'">
        <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
-       <action>/usr/local/bin/defaultaudioplayer &</action>
+       <action>/usr/local/gsm/applications/aplay &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null.png</input> 
@@ -108,21 +108,21 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Terminal ')'">
        <input file>/usr/local/lib/X11/pixmaps/console48.png</input>
-       <action>/usr/local/bin/defaultterminal &</action>
+       <action>/usr/local/gsm/applications/terminal &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Instant messaging ')'">
        <input file>/usr/local/lib/X11/pixmaps/chat48.png</input>
-       <action>/usr/local/bin/defaultchat &</action>
+       <action>/usr/local/gsm/applications/chat &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
       </pixmap>
       <button tooltip-text="'$(gettext  ' Note ')'">
        <input file>/usr/local/lib/X11/pixmaps/edit48.png</input>
-       <action>/usr/local/bin/defaulttexteditor &</action>
+       <action>/usr/local/gsm/applications/note &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
@@ -193,7 +193,7 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Network settings ')'">
        <input file>/usr/local/lib/X11/pixmaps/connect48.png</input>
-       <action>/usr/local/bin/defaultconnect &</action>
+       <action>/usr/local/gsm/applications/connect &</action>
       </button>
       <pixmap>
        <input file>/usr/local/gsm/pixmaps/null2.png</input> 
