@@ -27,6 +27,9 @@ Gsm by KuLuSz
 Esta es un fork de dicha aplicación con carácter educativo en el 
 uso de gtkdialog, cualquier persona puede contrubuir aportando ideas, código,
 temas, skins, íconos y lo que consideren conveniente para mejorarla.
+Puedes descargar el paquete original de esta direccion
+[gsm_by_KuLuSz.pet]
+(http://ubuntuone.com/0AWEeVXraLOe0j5OpXn2Av)
 
 Dependencias
 ============
