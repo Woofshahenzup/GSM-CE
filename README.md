@@ -31,3 +31,6 @@ temas, skins, íconos y lo que consideren conveniente para mejorarla.
 Dependencias
 ============
 gtk2desklet
+
+[Reportar fallos]
+(https://github.com/Woofshahenzup/GSM-CE/issues)
