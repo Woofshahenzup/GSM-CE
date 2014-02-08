@@ -1,0 +1,316 @@
+#! /bin/bash
+# This gui made by KuLuSz
+# GSM means GTK Start Menu :)
+# Need was make the gtk chooser scripts for the launched applications, shouldbe use the black-trans (very crap) gtk theme.
+# GNU General Public License as published by the Free Software Foundation version 2
+#i18n nilsonmorales
+#l10n nilsonmorales
+
+export GTK2_RC_FILES=/usr/share/themes/black-trans/gtk-2.0/gtkrc:/root/.gtkrc-2.0
+export TEXTDOMAIN=gsm
+export OUTPUT_CHARSET=UTF-8
+export MAIN_DIALOG='
+<vbox>
+  <notebook labels="'$(gettext  'Applications  |  System settings  |  Shutdown')'  " tab-pos="3" homogeneous="true">
+
+    <vbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+     <hbox>
+
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+      <button tooltip-text="'$(gettext  ' Filemanager /root directory ')'">
+       <input file>/usr/local/lib/X11/pixmaps/home48.png</input>
+       <action>/usr/local/gsm/applications/rox &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Web browser ')'">
+       <input file>/usr/local/lib/X11/pixmaps/www48.png</input>
+       <action>/usr/local/bin/defaultbrowser &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Wordprocess ')'">
+       <input file>/usr/local/lib/X11/pixmaps/word48.png</input>
+       <action>/usr/local/bin/defaultwordprocessor &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Video player ')'">
+       <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
+       <action>/usr/local/bin/defaultmediaplayer &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+     <hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+      <button tooltip-text="'$(gettext  ' Mount ')'">
+       <input file>/usr/local/lib/X11/pixmaps/drive48.png</input>
+       <action>/usr/local/gsm/applications/mount &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Mail ')'">
+       <input file>/usr/local/lib/X11/pixmaps/email48.png</input>
+       <action>/usr/local/bin/defaultemail &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Spreadsheet ')'">
+       <input file>/usr/local/lib/X11/pixmaps/spread48.png</input>
+       <action>/usr/local/bin/defaultspreadsheet &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Audio player ')'">
+       <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
+       <action>/usr/local/bin/defaultaudioplayer &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+     <hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+      <button tooltip-text="'$(gettext  ' Terminal ')'">
+       <input file>/usr/local/lib/X11/pixmaps/console48.png</input>
+       <action>/usr/local/bin/defaultterminal &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Instant messaging ')'">
+       <input file>/usr/local/lib/X11/pixmaps/chat48.png</input>
+       <action>/usr/local/bin/defaultchat &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Note ')'">
+       <input file>/usr/local/lib/X11/pixmaps/edit48.png</input>
+       <action>/usr/local/bin/defaulttexteditor &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Help ')'">
+       <input file>/usr/local/lib/X11/pixmaps/help48.png</input>
+       <action>/usr/local/gsm/applications/help &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+    </vbox>
+
+    <vbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+     <hbox>
+
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+      <button tooltip-text="'$(gettext  ' Wallpaper settings ')'">
+       <input file>/usr/local/gsm/pixmaps/style.png</input>
+       <action>/usr/local/gsm/applications/wallpaper &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' System time settings ')'">
+       <input file>/usr/local/lib/X11/pixmaps/date48.png</input>
+       <action>/usr/local/gsm/applications/time &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Sound settings ')'">
+       <input file>/usr/local/gsm/pixmaps/kmix.png</input>
+       <action>/usr/local/gsm/applications/alsa &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' System process manager ')'">
+       <input file>/usr/local/gsm/pixmaps/ksysguard.png</input>
+       <action>/usr/local/gsm/applications/process &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+
+     <hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+      <button tooltip-text="'$(gettext  ' Network settings ')'">
+       <input file>/usr/local/lib/X11/pixmaps/connect48.png</input>
+       <action>/usr/local/bin/defaultconnect &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Printer settings ')'">
+       <input file>/usr/local/lib/X11/pixmaps/printer48.png</input>
+       <action>/usr/local/gsm/applications/print &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Localization settins ')'">
+       <input file>/usr/local/gsm/pixmaps/locale2.png</input>
+       <action>/usr/local/gsm/applications/localisation &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Hardware information ')'">
+       <input file>/usr/local/gsm/pixmaps/hwinfo.png</input>
+       <action>/usr/local/gsm/applications/hinfo &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+      
+     <hbox homogeneous="true">
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' System installer ')'">
+       <input file>/usr/local/gsm/pixmaps/download_manager.png</input>
+       <action>/usr/local/gsm/applications/sys_inst &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Package installer ')'">
+       <input file>/usr/local/lib/X11/pixmaps/pet48.png</input>
+       <action>/usr/local/gsm/applications/pet_inst &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+    </vbox>
+
+    <vbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <hbox>
+      <button tooltip-text="'$(gettext  ' Close this start menu ')'">
+      <label>'$(gettext  'Close')'</label>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+     <hbox homogeneous="true">
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' X server restart ')'">
+       <input file>/usr/local/lib/X11/pixmaps/x48.png</input>
+       <action>/usr/bin/restartwm &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' Exit to command prompt ')'">
+       <input file>/usr/local/gsm/pixmaps/terminal.png</input>
+       <action>/usr/bin/wmexit && killall X &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <pixmap>
+      <input file>/usr/local/gsm/pixmaps/null.png</input> 
+     </pixmap>
+     <hbox homogeneous="true">
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' System reboot ')'">
+       <input file>/usr/local/gsm/pixmaps/restart.png</input>
+       <action>/usr/bin/wmreboot && killall X &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null2.png</input> 
+      </pixmap>
+      <button tooltip-text="'$(gettext  ' System power-off ')'">
+       <input file>/usr/local/lib/X11/pixmaps/shutdown48.png</input>
+       <action>/usr/bin/wmpoweroff && killall X &</action>
+      </button>
+      <pixmap>
+       <input file>/usr/local/gsm/pixmaps/null.png</input> 
+      </pixmap>
+     </hbox>
+    </vbox>
+
+  </notebook>
+</vbox>
+'
+gtkdialog --program=MAIN_DIALOG --geometry 0x0+5+5  --gtk-module=gtk2desklet
+#gtkdialog --program=MAIN_DIALOG --center --gtk-module=gtk2desklet 

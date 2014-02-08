@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsm package.
+# KuLuSz <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsm VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-06 12:18-0600\n"
+"PO-Revision-Date: 2014-02-06 12:18-0600\n"
+"Last-Translator: KuLuSz <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gsm.sh:14
+msgid "Applications  |  System settings  |  Shutdown"
+msgstr "Alkalmazások  |  Rendszer beállítások  |  Leállítás"
+
+#: gsm.sh:27
+msgid " Filemanager /root directory "
+msgstr " Fájlkezelő /root könyvtár"
+
+#: gsm.sh:34
+msgid " Web browser "
+msgstr " Web böngésző "
+
+#: gsm.sh:41
+msgid " Wordprocess "
+msgstr " Szövegszerkesztő "
+
+#: gsm.sh:48
+msgid " Video player "
+msgstr " Videó lejátszó "
+
+#: gsm.sh:68
+msgid " Mount "
+msgstr " Meghajtó csatoló "
+
+#: gsm.sh:75
+msgid " Mail "
+msgstr " Levelezés "
+
+#: gsm.sh:82
+msgid " Spreadsheet "
+msgstr " Táblázatkezelő "
+
+#: gsm.sh:89
+msgid " Audio player "
+msgstr " Audió lejátszó "
+
+#: gsm.sh:109
+msgid " Terminal "
+msgstr " Terminál "
+
+#: gsm.sh:116
+msgid " Instant messaging "
+msgstr " Azonnali üzenetküldő "
+
+#: gsm.sh:123
+msgid " Note "
+msgstr " Jegyzettömb "
+
+#: gsm.sh:130
+msgid " Help "
+msgstr " Segítség "
+
+#: gsm.sh:153
+msgid " Wallpaper settings "
+msgstr " Háttérkép beállítások "
+
+#: gsm.sh:160
+msgid " System time settings "
+msgstr " Rendszer idő beállítások "
+
+#: gsm.sh:167
+msgid " Sound settings "
+msgstr " Hang Beállítások "
+
+#: gsm.sh:174
+msgid " System process manager "
+msgstr " Rendszer folyamatok kezelése"
+
+#: gsm.sh:194
+msgid " Network settings "
+msgstr " Hálózati beállítások "
+
+#: gsm.sh:201
+msgid " Printer settings "
+msgstr " Nyomtató beállítások "
+
+#: gsm.sh:208
+msgid " Localization settins "
+msgstr " Nyelv beállítás "
+
+#: gsm.sh:215
+msgid " Hardware information "
+msgstr " Hardver informácó"
+
+#: gsm.sh:234
+msgid " System installer "
+msgstr " Rendszer telepítő"
+
+#: gsm.sh:241
+msgid " Package installer "
+msgstr " Csomag telepítő "
+
+#: gsm.sh:256
+msgid " Close this start menu "
+msgstr " A start menü bezárása "
+
+#: gsm.sh:257
+msgid "Close"
+msgstr "Bezár"
+
+#: gsm.sh:267
+msgid " X server restart "
+msgstr " X szerver újraindítása "
+
+#: gsm.sh:274
+msgid " Exit to command prompt "
+msgstr " Kilépés paranccsorba"
+
+#: gsm.sh:295
+msgid " System reboot "
+msgstr " Rendszer újraindítása"
+
+#: gsm.sh:302
+msgid " System power-off "
+msgstr " Rendszer leállítása "

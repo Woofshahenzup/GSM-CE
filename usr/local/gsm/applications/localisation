@@ -1,0 +1,6 @@
+#!/bin/sh
+CURRENT_GTK="cut -s -d/ -f5 /root/.gtkrc-2.0"
+
+export GTK2_RC_FILES=/usr/share/themes/$CURRENT_GTK/gtk-2.0/gtkrc:/root/.gtkrc-2.0
+
+/usr/sbin/chooselocale &

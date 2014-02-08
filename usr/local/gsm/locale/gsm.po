@@ -1,0 +1,134 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsm package.
+# root <nilsonmorales@hotmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsm VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-06 12:18-0600\n"
+"PO-Revision-Date: 2014-02-06 12:28-0600\n"
+"Last-Translator: nilsonmorales <nilsonmorales@hotmail.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gsm.sh:14
+msgid "Applications  |  System settings  |  Shutdown"
+msgstr "Aplicaciones | Ajustes de sistema | Apagado"
+
+#: gsm.sh:27
+msgid " Filemanager /root directory "
+msgstr "Administrador/directorio raiz"
+
+#: gsm.sh:34
+msgid " Web browser "
+msgstr "Navegador"
+
+#: gsm.sh:41
+msgid " Wordprocess "
+msgstr "Procesador de texto"
+
+#: gsm.sh:48
+msgid " Video player "
+msgstr "Reproductor de video"
+
+#: gsm.sh:68
+msgid " Mount "
+msgstr "Montar"
+
+#: gsm.sh:75
+msgid " Mail "
+msgstr "Correo"
+
+#: gsm.sh:82
+msgid " Spreadsheet "
+msgstr "Hoja de cálculo"
+
+#: gsm.sh:89
+msgid " Audio player "
+msgstr "Reproductor de audio"
+
+#: gsm.sh:109
+msgid " Terminal "
+msgstr "Terminal"
+
+#: gsm.sh:116
+msgid " Instant messaging "
+msgstr "Mensajería Instantanea"
+
+#: gsm.sh:123
+msgid " Note "
+msgstr "Notas"
+
+#: gsm.sh:130
+msgid " Help "
+msgstr "Ayuda"
+
+#: gsm.sh:153
+msgid " Wallpaper settings "
+msgstr "Ajustes de fondo de pantalla"
+
+#: gsm.sh:160
+msgid " System time settings "
+msgstr "Configuración de la hora del sistema"
+
+#: gsm.sh:167
+msgid " Sound settings "
+msgstr "Configuración de sonido"
+
+#: gsm.sh:174
+msgid " System process manager "
+msgstr "Administrador de proceso"
+
+#: gsm.sh:194
+msgid " Network settings "
+msgstr "Configuración de red"
+
+#: gsm.sh:201
+msgid " Printer settings "
+msgstr "Configuración de impresión"
+
+#: gsm.sh:208
+msgid " Localization settins "
+msgstr "Opciones de localización"
+
+#: gsm.sh:215
+msgid " Hardware information "
+msgstr "Información del Hardware"
+
+#: gsm.sh:234
+msgid " System installer "
+msgstr "Instalador "
+
+#: gsm.sh:241
+msgid " Package installer "
+msgstr "Administrador de paquetes"
+
+#: gsm.sh:256
+msgid " Close this start menu "
+msgstr "Cerrar este menú"
+
+#: gsm.sh:257
+msgid "Close"
+msgstr "Cerrar"
+
+#: gsm.sh:267
+msgid " X server restart "
+msgstr "Reiniciar servidor X"
+
+#: gsm.sh:274
+msgid " Exit to command prompt "
+msgstr "Salir a linea de comandos del sistema"
+
+#: gsm.sh:295
+msgid " System reboot "
+msgstr "Reiniciar sistema"
+
+#: gsm.sh:302
+msgid " System power-off "
+msgstr "Apagar el sistema"
+

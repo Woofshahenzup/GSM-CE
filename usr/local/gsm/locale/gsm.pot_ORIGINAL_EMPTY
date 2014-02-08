@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gsm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gsm VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-06 12:18-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gsm.sh:14
+msgid "Applications  |  System settings  |  Shutdown"
+msgstr ""
+
+#: gsm.sh:27
+msgid " Filemanager /root directory "
+msgstr ""
+
+#: gsm.sh:34
+msgid " Web browser "
+msgstr ""
+
+#: gsm.sh:41
+msgid " Wordprocess "
+msgstr ""
+
+#: gsm.sh:48
+msgid " Video player "
+msgstr ""
+
+#: gsm.sh:68
+msgid " Mount "
+msgstr ""
+
+#: gsm.sh:75
+msgid " Mail "
+msgstr ""
+
+#: gsm.sh:82
+msgid " Spreadsheet "
+msgstr ""
+
+#: gsm.sh:89
+msgid " Audio player "
+msgstr ""
+
+#: gsm.sh:109
+msgid " Terminal "
+msgstr ""
+
+#: gsm.sh:116
+msgid " Instant messaging "
+msgstr ""
+
+#: gsm.sh:123
+msgid " Note "
+msgstr ""
+
+#: gsm.sh:130
+msgid " Help "
+msgstr ""
+
+#: gsm.sh:153
+msgid " Wallpaper settings "
+msgstr ""
+
+#: gsm.sh:160
+msgid " System time settings "
+msgstr ""
+
+#: gsm.sh:167
+msgid " Sound settings "
+msgstr ""
+
+#: gsm.sh:174
+msgid " System process manager "
+msgstr ""
+
+#: gsm.sh:194
+msgid " Network settings "
+msgstr ""
+
+#: gsm.sh:201
+msgid " Printer settings "
+msgstr ""
+
+#: gsm.sh:208
+msgid " Localization settins "
+msgstr ""
+
+#: gsm.sh:215
+msgid " Hardware information "
+msgstr ""
+
+#: gsm.sh:234
+msgid " System installer "
+msgstr ""
+
+#: gsm.sh:241
+msgid " Package installer "
+msgstr ""
+
+#: gsm.sh:256
+msgid " Close this start menu "
+msgstr ""
+
+#: gsm.sh:257
+msgid "Close"
+msgstr ""
+
+#: gsm.sh:267
+msgid " X server restart "
+msgstr ""
+
+#: gsm.sh:274
+msgid " Exit to command prompt "
+msgstr ""
+
+#: gsm.sh:295
+msgid " System reboot "
+msgstr ""
+
+#: gsm.sh:302
+msgid " System power-off "
+msgstr ""
