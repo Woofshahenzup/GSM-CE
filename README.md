@@ -30,8 +30,9 @@ El paquete no tiene entrada en el menú o pinstall o alguna gui para
 activar/desactivar aun se está planeando como hacer, para activarlo 
 crea un script en /root/Startup asi:
 
- #!/bin/sh
- gsm
+#!/bin/sh
+ 
+gsm
  
 Luego haga click en el script para activarlo 
 
