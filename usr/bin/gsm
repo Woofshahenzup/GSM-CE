@@ -26,6 +26,8 @@ export MAIN_DIALOG='
 
       <button tooltip-text="'$(gettext  ' Filemanager /root directory ')'">
        <input file>/usr/local/lib/X11/pixmaps/home48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/rox &</action>
       </button>
       <pixmap>
@@ -33,6 +35,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Web browser ')'">
        <input file>/usr/local/lib/X11/pixmaps/www48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/browser &</action>
       </button>
       <pixmap>
@@ -40,6 +44,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Wordprocess ')'">
        <input file>/usr/local/lib/X11/pixmaps/word48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/wordprocessor &</action>
       </button>
       <pixmap>
@@ -47,6 +53,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Video player ')'">
        <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/vplay &</action>
       </button>
       <pixmap>
@@ -67,6 +75,8 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Mount ')'">
        <input file>/usr/local/lib/X11/pixmaps/drive48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/mount &</action>
       </button>
       <pixmap>
@@ -74,6 +84,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Mail ')'">
        <input file>/usr/local/lib/X11/pixmaps/email48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/mail &</action>
       </button>
       <pixmap>
@@ -81,6 +93,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Spreadsheet ')'">
        <input file>/usr/local/lib/X11/pixmaps/spread48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/spreadsheet &</action>
       </button>
       <pixmap>
@@ -88,6 +102,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Audio player ')'">
        <input file>/usr/local/lib/X11/pixmaps/multimedia48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/aplay &</action>
       </button>
       <pixmap>
@@ -108,6 +124,8 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Terminal ')'">
        <input file>/usr/local/lib/X11/pixmaps/console48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/terminal &</action>
       </button>
       <pixmap>
@@ -115,6 +133,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Instant messaging ')'">
        <input file>/usr/local/lib/X11/pixmaps/chat48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/chat &</action>
       </button>
       <pixmap>
@@ -122,6 +142,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Note ')'">
        <input file>/usr/local/lib/X11/pixmaps/edit48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/note &</action>
       </button>
       <pixmap>
@@ -129,6 +151,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Help ')'">
        <input file>/usr/local/lib/X11/pixmaps/help48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/help &</action>
       </button>
       <pixmap>
@@ -152,6 +176,8 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Wallpaper settings ')'">
        <input file>/usr/local/gsm/pixmaps/style.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/wallpaper &</action>
       </button>
       <pixmap>
@@ -159,6 +185,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' System time settings ')'">
        <input file>/usr/local/lib/X11/pixmaps/date48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/time &</action>
       </button>
       <pixmap>
@@ -166,6 +194,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Sound settings ')'">
        <input file>/usr/local/gsm/pixmaps/kmix.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/alsa &</action>
       </button>
       <pixmap>
@@ -173,6 +203,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' System process manager ')'">
        <input file>/usr/local/gsm/pixmaps/ksysguard.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/process &</action>
       </button>
       <pixmap>
@@ -193,6 +225,8 @@ export MAIN_DIALOG='
      </pixmap>
       <button tooltip-text="'$(gettext  ' Network settings ')'">
        <input file>/usr/local/lib/X11/pixmaps/connect48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/connect &</action>
       </button>
       <pixmap>
@@ -200,6 +234,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Printer settings ')'">
        <input file>/usr/local/lib/X11/pixmaps/printer48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/print &</action>
       </button>
       <pixmap>
@@ -207,6 +243,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Localization settins ')'">
        <input file>/usr/local/gsm/pixmaps/locale2.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/localisation &</action>
       </button>
       <pixmap>
@@ -214,6 +252,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Hardware information ')'">
        <input file>/usr/local/gsm/pixmaps/hwinfo.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/hinfo &</action>
       </button>
       <pixmap>
@@ -233,6 +273,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' System installer ')'">
        <input file>/usr/local/gsm/pixmaps/download_manager.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/sys_inst &</action>
       </button>
       <pixmap>
@@ -240,6 +282,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Package installer ')'">
        <input file>/usr/local/lib/X11/pixmaps/pet48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/local/gsm/applications/pet_inst &</action>
       </button>
       <pixmap>
@@ -266,6 +310,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' X server restart ')'">
        <input file>/usr/local/lib/X11/pixmaps/x48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/bin/restartwm &</action>
       </button>
       <pixmap>
@@ -273,6 +319,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' Exit to command prompt ')'">
        <input file>/usr/local/gsm/pixmaps/terminal.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/bin/wmexit && killall X &</action>
       </button>
       <pixmap>
@@ -294,6 +342,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' System reboot ')'">
        <input file>/usr/local/gsm/pixmaps/restart.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/bin/wmreboot && killall X &</action>
       </button>
       <pixmap>
@@ -301,6 +351,8 @@ export MAIN_DIALOG='
       </pixmap>
       <button tooltip-text="'$(gettext  ' System power-off ')'">
        <input file>/usr/local/lib/X11/pixmaps/shutdown48.png</input>
+       <height>48</height>
+       <width>48</width>
        <action>/usr/bin/wmpoweroff && killall X &</action>
       </button>
       <pixmap>
