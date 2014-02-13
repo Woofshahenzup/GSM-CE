@@ -5,6 +5,7 @@
 # GNU General Public License as published by the Free Software Foundation version 2
 #i18n nilsonmorales
 #l10n nilsonmorales
+## 1302214 v0.2 updated by KuLuSz for the needed 48x48 pixel icons ( versions compatibility ) 
 
 export GTK2_RC_FILES=/usr/share/themes/black-trans/gtk-2.0/gtkrc:/root/.gtkrc-2.0
 export TEXTDOMAIN=gsm

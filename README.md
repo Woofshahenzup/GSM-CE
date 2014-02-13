@@ -18,6 +18,9 @@ Sencilla aplicación escrita en gtkdialog por KuLuSz
 Lanza aplicaciones del menu con una interfaz con 
 transparencia.
 
+[gsm_ce-0.2.pet]
+(http://ubuntuone.com/3ydewJyHQ8QFKSPhGp0wbr)
+
 [gsm_ce-0.1.pet]
 (http://ubuntuone.com/0QZLIs0dwxPZz1BdGyvaZU)
 
