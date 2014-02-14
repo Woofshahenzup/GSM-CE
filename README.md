@@ -19,7 +19,7 @@ Lanza aplicaciones del menu con una interfaz con
 transparencia.
 
 [gsm_ce-0.2.pet]
-(http://ubuntuone.com/3ydewJyHQ8QFKSPhGp0wbr)
+(http://ubuntuone.com/3RYley3oq86QPoK8jY0E5s)
 
 [gsm_ce-0.1.pet]
 (http://ubuntuone.com/0QZLIs0dwxPZz1BdGyvaZU)
