@@ -10,7 +10,7 @@
 export GTK2_RC_FILES=/usr/share/themes/black-trans/gtk-2.0/gtkrc:/root/.gtkrc-2.0
 export TEXTDOMAIN=gsm
 export OUTPUT_CHARSET=UTF-8
-export MAIN_DIALOG='
+export gsm='
 <vbox>
   <notebook labels="'$(gettext  'Applications  |  System settings  |  Shutdown')'  " tab-pos="3" homogeneous="true">
 
@@ -365,5 +365,5 @@ export MAIN_DIALOG='
   </notebook>
 </vbox>
 '
-gtkdialog --program=MAIN_DIALOG --geometry 0x0+5+5  --gtk-module=gtk2desklet
+gtkdialog --program=gsm --geometry 0x0+5+5  --gtk-module=gtk2desklet
 #gtkdialog --program=MAIN_DIALOG --center --gtk-module=gtk2desklet 
