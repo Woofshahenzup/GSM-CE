@@ -19,13 +19,13 @@ Lanza aplicaciones del menu con una interfaz con
 transparencia.
 
 [gsm_ce-0.2.pet]
-(http://ubuntuone.com/3RYley3oq86QPoK8jY0E5s)
+(https://copy.com/KdTFFXdJS9zy)
 
 [gsm_ce-0.1.pet]
-(http://ubuntuone.com/0QZLIs0dwxPZz1BdGyvaZU)
+(https://copy.com/wMQBo1XxK6Ov)
 
 [gtk2desklet-3.1.pet]
-(http://ubuntuone.com/7IZFekNmk73ztIUc58qYfl)
+(https://copy.com/uwpbs1YuusfV)
 
 Primer uso
 ==========
@@ -51,7 +51,7 @@ temas, skins, íconos y lo que consideren conveniente para mejorarla.
 Puedes descargar el paquete original de esta dirección
 
 [gsm_by_KuLuSz.pet]
-(http://ubuntuone.com/0AWEeVXraLOe0j5OpXn2Av)
+(https://copy.com/QTyNrfer2jIo)
 
 Dependencias
 ============
