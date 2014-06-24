@@ -365,5 +365,5 @@ export gsm='
   </notebook>
 </vbox>
 '
-gtkdialog --program=gsm --geometry 0x0+5+5  --gtk-module=gtk2desklet
-#gtkdialog --program=MAIN_DIALOG --center --gtk-module=gtk2desklet 
+gtkdialog --program=gsm --center  --gtk-module=gtk2desklet
+ 
