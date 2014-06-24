@@ -24,8 +24,8 @@ transparencia.
 [gsm_ce-0.1.pet]
 (https://copy.com/wMQBo1XxK6Ov)
 
-[gsm_pupjibaro-0.1.pet]   MD5SUM 1c692f804e10996abeb4c7de91f97661
-(https://copy.com/t3GGjfCQEOu6)
+[gsm_pupjibaro-0.1.pet]   
+(https://copy.com/t3GGjfCQEOu6) MD5SUM 1c692f804e10996abeb4c7de91f97661
 
 [gtk2desklet-3.1.pet]
 (https://copy.com/uwpbs1YuusfV)
